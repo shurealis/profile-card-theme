@@ -584,23 +584,35 @@ img {
   justify-content: space-around;
 }
 
-.buttons button:first-child {
-  width: 130px;
-  border-radius: 1.5rem;
+.buttons button {
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
   padding: 0.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   background-color: var(--theme-color);
 }
 
-.buttons button:last-child {
-  width: 130px;
-  border-radius: 1.5rem;
-  background-color: transparent;
-  padding: 0.25rem;
-  color: var(--theme-color);
-  border: 2px solid var(--theme-color);
+/* .buttons button:first-child {
+    @apply w-[130px] p-1 rounded-3xl text-white
 }
+
+.buttons button:first-child {
+    background-color: var(--theme-color);
+} */
+
+/* 
+.buttons button:last-child {
+    @apply w-[130px] bg-transparent p-1 rounded-3xl
+}
+
+.buttons button:last-child {
+    color: var(--theme-color);
+    border: 2px solid var(--theme-color);
+} */
 
 .themes {
   position: relative;
